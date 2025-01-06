@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="shortcut icon" href="favicon.jpg" type="image/jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utality.css">
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <nav class="flex align ">
+        <div class="logo  color hover"><img src="Images/logo.svg" alt="logo"></div>
+
+        <div class="middle flex  ">
+            <div class="home hover"><img class="size color " id="h" src="Images/home.svg" alt="home"></div>
+            <ul class="flex non middlein align">
+                <li><img class="size color hover" src="Images/search.svg" alt="search"></li>
+                <li><input class="searchbox" type="text" placeholder="What do you want to play?"></li>
+                <li class="browse hover"><img class="size color" id="b" src="Images/bowser.svg" alt="browse"></li>
+            </ul>
+        </div>
+
+        <div class="last ">
+            <ul class="flex non lastlist">
+                <li class=" hover">Sign Up</li>
+                <li class="login hover">Log in</li>
+            </ul>
+        </div>
+
+
+    </nav>
+
+    <!-- Miann  -->
+    <main class="flex ma ">
+        <div class="left bg-gray rounded">
+            <header class="flex head  align">
+                <div class="liabrary  flex justif align ">
+                    <img class="color hover" id="books" src="Images/laibarary.svg" alt="Laibarary">
+                    <h4 class="hover">Your Library</h4>
+                </div>
+
+                <div class="plus   "><img id="books color hover textsize" src="Images/plus.svg" alt="plus"></div>
+
+            </header>
+            <div class=" overflow-scroll">
+
+                <div class="scrolfirst rounded">
+                    <h3>Create your first playlist</h3>
+                    <p class="pad">It's easy, we will help you</p>
+                    <button class="button hover " type="button">Create Playlist</button>
+                </div>
+
+                <div class="scrolfirst rounded">
+                    <h3>Let's find some podcasts to follow</h3>
+                    <p class="pad">We'll keep you updated on new episodes</p>
+                    <button class="button hover " type="button">Browse podcasts</button>
+                </div>
+            </div>
+
+            <footer>
+                <div class="f">
+
+                    <div class="f1">
+                        <ul class="flex align fontsize line1 non ">
+                            <li>Legal</li>
+                            <li>Safty&PrivacyCenter</li>
+                            <li>PrivacyPolicy</li>
+                            <li>Cookies</li>
+                        </ul>
+                    </div>
+
+                    <div class="f2 ">
+                        <ul class="flex fontsize non line1 ">
+                            <li>AboutAds</li>
+                            <li>Accessablity</li>
+                        </ul>
+                    </div>
+
+                    <div class="f3 fontsize ">
+                        Cookies
+                    </div>
+                    <div class="btn flex align justif ">
+                        <img class=" glb color" src="Images/glb.svg" alt="languae">
+                        <input class="bt" type="button" value="English">
+                    </div>
+                </div>
+
+
+            </footer>
+
+        </div>
+
+        <!-- Right box -->
+
+        <div class="right  rounded gradient-bg overflow-scroll2 ">
+            <div class=>
+                <div class="heading1 flex">
+                    <h2 class="underline">Papolar artists</h2>
+                    <div class="al underline ">
+                        <h4 id="color2">Show all</h4>
+                    </div>
+                </div>
+
+                <div class="  sec2 ">
+
+
+
+                    <div data-folder="Pretam" class="card c ">
+                        <div class="pic">
+                            <img src="Images/Pretam.jpg" alt="Pretam">
+                        </div>
+                        <div class="naem">
+                            <h5>Pretam</h5>
+                        </div>
+                        <div class="art">
+                            <h5 id="color2">Artist</h5>
+                        </div>
+                        <div class="green flex justif align  "><img id="play" src="Images/play.svg" alt="palybutton">
+                        </div>
+                    </div>
+
+
+
+                    <div data-folder="Karan" class="card2 card c">
+                        <div class="pic2">
+                            <img src="Images/Karan Ajula.jpg" alt="Karan Ajula">
+                        </div>
+                        <div class="naem">
+                            <h5>Karan Ajula</h5>
+                        </div>
+                        <div class="art">
+                            <h5 id="color2">Artist</h5>
+                        </div>
+                        <div class="green flex justif align  "><img id="play" src="Images/play.svg" alt="palybutton">
+                        </div>
+
+                    </div>
+
+
+
+
+                    <div data-folder="Diljit" class="card2 card c">
+                        <div class="pic2">
+                            <img src="Images/Diljet.jpg" alt="Karan Ajula">
+                        </div>
+                        <div class="naem">
+                            <h5>Diljit Dosanjh</h5>
+                        </div>
+                        <div class="">
+                            <h5 id="color2">Artist</h5>
+                        </div>
+                        <div class="green flex justif align  "><img id="play" src="Images/play.svg" alt="palybutton">
+                        </div>
+
+                    </div>
+
+
+                    <div data-folder="Atif" class="card2 card c">
+                        <div class="pic">
+                            <img src="Images/Atip aslam.jpg" alt="Karan Ajula">
+                        </div>
+                        <div class="naem">
+                            <h5>Atif Aslam</h5>
+                        </div>
+                        <div class="">
+                            <h5 id="color2">Artist</h5>
+                        </div>
+                        <div class="green flex justif align  "><img id="play" src="Images/play.svg" alt="palybutton">
+                        </div>
+
+
+                    </div>
+
+
+                    <div data-folder="Arjit" class="card2 card c">
+                        <div class="pic2">
+                            <img src="Images/Arjit.jpg" alt="Karan Ajula">
+                        </div>
+                        <div class="naem">
+                            <h5>Arijit Singh</h5>
+                        </div>
+                        <div class="">
+                            <h5 id="color2">Artist</h5>
+                        </div>
+                        <div class="green flex justif align  "><img id="play" src="Images/play.svg" alt="palybutton">
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+
+                </div>
+                <!-- section two -->
+                <div class=" section2   ">
+                    <div class="heading1 flex">
+                        <h2 class="underline">Papolar albums and singles</h2>
+                        <div class=" underline ">
+                            <h4 id="color2">Show all</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class=" section0 ">
+
+                    <div class="s1">
+                        <div class="card">
+                            <div class="">
+                                <img class="rounded mind" src="Images/my mind.jpg" alt="Karan Ajula">
+                            </div>
+                            <div class="space">
+                                <h5>My terrible Mind</h5>
+                            </div>
+                            <div class="">
+                                <h5 id="color2">Talha Anjum,Umair</h5>
+                            </div>
+                            <div class="green flex justif align  "><img id="play" src="Images/play.svg"
+                                    alt="palybutton">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="card">
+                            <div class="">
+                                <img class="rounded mind" src="Images/honysing.jpg" alt="Hony singh">
+                            </div>
+                            <div class="space">
+                                <h5>GLORY</h5>
+                            </div>
+                            <div class="">
+                                <h5 id="color2">Yo Yo Honey Singh</h5>
+                            </div>
+                            <div class="green flex justif align  "><img id="play" src="Images/play.svg"
+                                    alt="palybutton">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="card">
+                            <div class="">
+                                <img class="rounded mind" src="Images/Jo tum mery ho.jpg" alt="Karan Ajula">
+                            </div>
+                            <div class="space">
+                                <h5>Jo Tum Mery Ho</h5>
+                            </div>
+                            <div class="">
+                                <h5 id="color2">Anuv Jain</h5>
+                            </div>
+                            <div class="green flex justif align  "><img id="play" src="Images/play.svg"
+                                    alt="palybutton">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="card">
+                            <div class="">
+                                <img class="rounded mind" src="Images/Jhol.jpg" alt="Karan Ajula">
+                            </div>
+                            <div class="space">
+                                <h5>Jhol</h5>
+                            </div>
+                            <div class="">
+                                <h5 id="color2">Maanu,Annural Khalid</h5>
+                            </div>
+                            <div class="green flex justif align  "><img id="play" src="Images/play.svg"
+                                    alt="palybutton">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="card">
+                            <div class="">
+                                <img class="rounded mind" src="Images/meroris.jpg" alt="Karan Ajula">
+                            </div>
+                            <div class="space">
+                                <h5>Making Memories</h5>
+                            </div>
+                            <div class="">
+                                <h5 id="color2">Karan Aujla,lkky</h5>
+                            </div>
+                            <div class="green flex justif align  "><img id="play" src="Images/play.svg"
+                                    alt="palybutton">
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- section 3 -->
+            <div class=" section2   ">
+                <div class="heading1 flex">
+                    <h2 class="underline">Papolar Radio</h2>
+                    <div class=" underline ">
+                        <h4 id="color2">Show all</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="section3 ">
+
+                <div class="s1">
+                    <div class="card">
+                        <div class="">
+                            <img class="rounded mind" src="Images/With atif.jpg" alt="Arjit Singh">
+                        </div>
+                        <div class="space">
+                            <h5 id="color2">With Atif Aslam,</h5>
+                            <h5 id="color2">Sachin-Jigar,Amit...</h5>
+                        </div>
+                        <div class="green flex justif align  "><img id="play" src="Images/play.svg" alt="palybutton">
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="">
+                    <div class="card">
+                        <div class="">
+                            <img class="rounded mind" src="Images/diljet radio.jpg" alt="Diljit Dosnjh">
+                        </div>
+                        <div class="space">
+                            <h5 id="color2">With Karan Ajula,</h5>
+                            <h5 id="color2">Shubh,Sidho Moos...</h5>
+                        </div>
+                        <div class="green flex justif align  "><img id="play" src="Images/play.svg" alt="palybutton">
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="">
+                    <div class="card">
+                        <div class="">
+                            <img class="rounded mind" src="Images/abida.jpg" alt="Abida Perveen">
+                        </div>
+                        <div class="space">
+                            <h5 id="color2">With Abida Parween,</h5>
+                            <h5 id="color2">Madhur SHarma,...</h5>
+                        </div>
+                        <div class="green flex justif align  "><img id="play" src="Images/play.svg" alt="palybutton">
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="">
+                    <div class="card">
+                        <div class="">
+                            <img class="rounded mind" src="Images/kafi.jpg" alt="Kafi Khaleel">
+                        </div>
+                        <div class="space">
+                            <h5 id="color2">With Abdul Hannan,</h5>
+                            <h5 id="color2">Anuv Jain,Aditya...</h5>
+                        </div>
+                        <div class="green flex justif align  "><img id="play" src="Images/play.svg" alt="palybutton">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="">
+                    <div class="card">
+                        <div class="">
+                            <img class="rounded mind" src="Images/talha.jpg" alt="Talha Anjum">
+                        </div>
+                        <div class="space">
+                            <h5 id="color2">With Young Stunners,</h5>
+                            <h5 id="color2">Talhah Yuhnas,Jokha...</h5>
+                        </div>
+                        <div class="green flex justif align  "><img id="play" src="Images/play.svg" alt="palybutton">
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+            <!-- section 4 -->
+            <div class=" section2   ">
+                <div class="heading1 flex">
+                    <h2 class="underline">Playlist from our editors</h2>
+                    <div class=" underline ">
+                        <h4 id="color2">Show all</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section4  ">
+
+                <div class="s1">
+                    <div class="card">
+                        <div class="">
+                            <img class="rounded mind" src="Images/lazy.jpg" alt="Lazy Suday">
+                        </div>
+                        <div class="space">
+                            <h5 id="color2">Because a quite</h5>
+                            <h5 id="color2">Sunday every now ...</h5>
+                        </div>
+                        <div class="green flex justif align  "><img id="play" src="Images/play.svg" alt="palybutton">
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="">
+                    <div class="card">
+                        <div class="">
+                            <img class="rounded mind" src="Images/rapcaver.jpg" alt="RapCover">
+                        </div>
+                        <div class="space">
+                            <h5 id="color2">Music from J.Cole,</h5>
+                            <h5 id="color2">Kendrick Lamar and...</h5>
+                        </div>
+                        <div class="green flex justif align  "><img id="play" src="Images/play.svg" alt="palybutton">
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="">
+                    <div class="card">
+                        <div class="">
+                            <img class="rounded mind" src="Images/sunday mode.jpg" alt="Abida Perveen">
+                        </div>
+                        <div class="space">
+                            <h5 id="color2">A lazy sunday vibe,</h5>
+                            <h5 id="color2">whatever day of the...</h5>
+                        </div>
+                        <div class="green flex justif align  "><img id="play" src="Images/play.svg" alt="palybutton">
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="">
+                    <div class="card">
+                        <div class="">
+                            <img class="rounded mind" src="Images/weetsenday.jpg" alt="Sweet sunday">
+                        </div>
+                        <div class="space">
+                            <h5 id="color2">Bask in the sound of</h5>
+                            <h5 id="color2">soul,old and new.</h5>
+                        </div>
+                        <div class="green flex justif align  "><img id="play" src="Images/play.svg" alt="palybutton">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="">
+                    <div class="card">
+                        <div class="">
+                            <img class="rounded mind" src="Images/senday seson.jpg" alt="Sunday season">
+                        </div>
+                        <div class="space">
+                            <h5 id="color2">With Young Stunners,</h5>
+                            <h5 id="color2">Talhah Yuhnas,Jokha...</h5>
+                        </div>
+                        <div class="green flex justif align  "><img id="play" src="Images/play.svg" alt="palybutton">
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <footer class="fo">
+
+                <div class="foot flex pad ">
+                    <div>
+                        <ul class="non ">
+                            <li>
+                                <h3>Company</h3>
+                            </li>
+                            <li class="pading pointer" id="color2">About</li>
+                            <li class="pading pointer" id="color2">Jobs</li>
+                            <li class="pading pointer" id="color2">For the Record</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="non">
+                            <li>
+                                <h3>Communities</h3>
+                            </li>
+                            <li class="pading pointer" id="color2">For Artists</li>
+                            <li class="pading pointer" id="color2">Developers</li>
+                            <li class="pading pointer" id="color2">Advertising</li>
+                            <li class="pading pointer" id="color2">Investors</li>
+                            <li class="pading pointer" id="color2">Vendors</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="non">
+                            <li>
+                                <h3>Useful linkes</h3>
+                            </li>
+                            <li class="pading pointer" id="color2">Support</li>
+                            <li class="pading pointer" id="color2">Free Mobile App</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="non">
+                            <li>
+                                <h3>Sopotify Plans</h3>
+                            </li>
+                            <li class="pading pointer" id="color2">Premium</li>
+                            <li class="pading pointer" id="color2">Individual</li>
+                            <li class="pading pointer" id="color2">Premium Duo</li>
+                            <li class="pading pointer" id="color2">Premium Family</li>
+                            <li class="pading pointer" id="color2">Premium Studend</li>
+                            <li class="pading pointer" id="color2">Spotify Free</li>
+
+                        </ul>
+                    </div>
+                    <div class="flex icons">
+                        <div class="round-bg flex justif align"><img class="size2 color" src="Images/instagram.svg"
+                                alt="instagram"></div>
+                        <div class="round-bg flex justif align"><img class="size2 color" src="Images/twiter.svg"
+                                alt="instagram"></div>
+                        <div class="round-bg flex justif align"><img class="size2 color" src="Images/facebook.svg"
+                                alt="facebook"></div>
+                    </div>
+                </div>
+
+                <div class="copy flex">
+                    <p>&copy; 2024 Spotify AB</p>
+                </div>
+            </footer>
+
+        </div>
+
+
+
+
+    </main>
+    <!-- song play box -->
+
+    <div class="songplayBox color flex mix">
+        <div class="currentsongs overflow-scroll3">
+            <ul class="li ">
+
+            </ul>
+        </div>
+        <div>
+            <div class="flex align inbox">
+                <div class="songname white "></div>
+                <div class="flex puseplay">
+                    <img id="privous" src="Images/privous.svg" alt="privous">
+                    <img id="p" src="Images\play1.svg" alt="play">
+                    <img id="next" src="Images/next.svg" alt="next">
+                </div>
+                <div class="songtiemduration white  "></div>
+            </div>
+            <div class="songplayer ">
+                <div class="songprogress ">
+                    <div class="circle"></div>
+                </div>
+                
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
