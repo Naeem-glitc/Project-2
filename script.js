@@ -23,7 +23,7 @@ function secondsToMinutesSeconds(seconds) {
 // Getting songs list from the array of songs
 async function getSongs(folder) {
     currFolder = folder
-    let songlist = await fetch(`/${currFolder}/`);
+    let songlist = await fetch(`/songs/${currFolder}/`);
     let response = await songlist.text();
     let div = document.createElement("div")
     div.innerHTML = response;
