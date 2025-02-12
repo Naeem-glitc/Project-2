@@ -23,8 +23,9 @@ function secondsToMinutesSeconds(seconds) {
 // Getting songs list from the array of songs
 async function getSongs(folder) {
     currFolder = folder
-    let songlist = await fetch(`https://project-2-one-azure.vercel.app/${currFolder}/`);
+    let songlist = await fetch(`https://project-2-one-azure.vercel.app/songs/${currFolder}/`);
     let response = await songlist.text();
+    console.log(response);
     let div = document.createElement("div")
     div.innerHTML = response;
     let as = div.getElementsByTagName("a")
